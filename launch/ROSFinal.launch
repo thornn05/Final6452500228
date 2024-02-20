@@ -1,0 +1,17 @@
+<launch>
+
+	<node name="Turtle" pkg="turtlesim" type="turtlesim_node" output="screen">
+	</node>
+	
+	<node name="Motion" pkg="Final6452500228" type="MotionLog.py" output="screen">
+	</node>
+	
+	<node name="Remote" pkg="Final6452500228" type="Turtle_Control.py" output="screen">
+	</node>
+	
+	<node name="arduino_listener" pkg="Final6452500228" type="Arduino_command.py" output="screen">
+	</node>
+	
+	
+	
+</launch>
